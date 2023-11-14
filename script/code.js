@@ -1,6 +1,7 @@
 
 let numbers = [12, 18, 11, 5, 8, 2];
 console.log(numbers);
+midNumber(numbers)
 
 function midNumber(numbers) {
     let length = numbers.length;
@@ -15,7 +16,6 @@ function midNumber(numbers) {
     }
 }
 
-midNumber(numbers)
 
 
   
