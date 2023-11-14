@@ -2,7 +2,7 @@
 let numbers = [12, 18, 11, 5, 8, 2];
 console.log(numbers);
 
-function displayMiddleNumber(numbers) {
+function midNumber(numbers) {
     let length = numbers.length;
     
     if (length % 2 === 0) {
@@ -15,7 +15,7 @@ function displayMiddleNumber(numbers) {
     }
 }
 
-displayMiddleNumber(numbers)
+midNumber(numbers)
 
 
   
